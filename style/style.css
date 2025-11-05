@@ -88,3 +88,34 @@ body {
   background-color: #f5c400;
 }
 
+.section-help {
+  background-color: #f5c400;
+  padding: 80px 100px;
+}
+
+.content-help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-help h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 65px;
+  font-weight: 100;
+  margin: 0 0 20px;
+  line-height: 1.0;
+}
+
+.text-help p {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.0;
+  
+}
+
+.img-help {
+  text-align: right;
+  flex: 1;
+}

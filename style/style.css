@@ -1,121 +1,1299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
+  font-family: Raleway;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  color: #000;
-  background-color: #fff;
-}
-
-.header {
-  background-color: #f5c400;
+header {
+  background-color: #e9bf00;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px;
+  padding: 10px 60px;
 }
 
-.logo {
+header {
+  background-color: #e9bf00;
   display: flex;
   align-items: center;
-  font-weight: bold;
-  text-transform: uppercase;
+  justify-content: space-between;
+  padding: 10px 60px;
 }
 
-.logo img {
-  height: 40px;
-  margin-right: 10px;
+header img {
+  height: 50px;
 }
 
-.menu a {
+nav a {
   text-decoration: none;
-  color: #000;
+  color: black;
   font-weight: bold;
   margin-left: 30px;
+  font-size: 14px;
 }
 
-.menu a:hover {
-  text-decoration: none;
-  align-items: center;
-}
-
-.hero {
+.sectionOne {
   display: flex;
-  justify-content: center;
+  padding: 60px 60px;
+  margin-bottom: 20%;
+}
+
+.sectionOne img {
+  width: 45%;
+}
+
+.Text {
+  width: 50%;
+  margin-left: 90px;
+  margin-top: 3%;
+}
+
+.Text h1 {
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Text p {
+  font-family: 'Open Sans';
+  font-size: 16px;
   align-items: center;
-  padding: 80px 100px;
-  gap: 60px;
+  padding-right: 80px;
 }
 
-.hero-image img {
-  width: 600px;
-  
-}
-
-.hero-text {
-  max-width: 550px;
-}
-
-.hero-text h1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 65px;
-  font-weight: 100;
-  margin: 0 0 20px;
-  line-height: 1.0;
-}
-
-.hero-text p {
-  font-size: 20px;
-  color: #333;
-  line-height: 1.0;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #f5c400;
-  color: #000;
+.Text button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #e9bf00;
+  border: none;
+  color: black;
   font-weight: bold;
-  text-decoration: none;
-  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Position {
+  display: flex;
+  background-color: rgb(217, 217, 217);
+  padding: 70px 60px;
+  margin: 70px 60px;
+  gap: 170px;
+  position: absolute;
+  top: 100%;
+  transform: translateX(2%);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.40);
+}
+
+.TextTwo h2 {
+  font-size: 48px;
+  color: #e9bf00;
+}
+
+.TextTwo p {
+  font-size: 18px;
   margin-top: 20px;
 }
 
-.btn:hover {
-  background-color: #f5c400;
+.resalte {
+  font-weight: bold;
+  text-decoration: none;
+  color: #111;
 }
 
-.section-help {
-  background-color: #f5c400;
+.estadisticas {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  height: auto;
+  gap: 50px;
+}
+
+.estadisticas img {
+  width: 200px;
+  height: 200px;
+}
+
+.SectionTwo {
+  background-color: #e9bf00;
+  padding: 80px 60px;
+}
+
+.TextThree h2 {
+  margin-top: 20%;
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: 500;
+  color: black;
+}
+
+.TextThree p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: black;
+}
+
+.TextThree button {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: black;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.imageSecThree {
+  display: flex;
+  margin-left: 380px;
+  margin-top: -190px;
+}
+
+.SectionThree {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  max-width: 1100px;
+  margin: 100px auto;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.SectionThree img {
+  width: 55%;
+  height: auto;
+}
+
+.TextFour {
+  padding: 40px;
+  max-width: 500px;
+}
+
+.SectionThree .TextFour h2 {
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #e9bf00;
+}
+
+.SectionThree button {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.estadis img {
+  width: 200px;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.TextFour p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: black;
+  margin-top: 20px;
+}
+
+.SectionFourth {
+  background-color: #000000;
+  align-items: column;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.SectionFourth h2 {
+  font-family: 'Bebas Neue';
+  color: #ffd417;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.SectionFourth p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #ffffff;
+  margin: 20px 200px;
+}
+
+.SectionFourth button {
+  font-family: 'Open Sans';
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #e9bf00;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.SectionFifth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
   padding: 80px 100px;
 }
 
-.content-help {
+.SectionFifth img {
+  width: 50%;
+  height: auto;
+  margin-right: 90px;
+}
+
+.TextFive h4 {
+  font-family: 'Bebas Neue';
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.TextFive p {
+  font-family: 'Open Sans';
+  color: #222;
+  font-size: 15px;
+  margin-bottom: 25px;
+  max-width: 420px;
+}
+
+.TextFive button {
+  background-color: #f6c900;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.SectionSixth {
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+  padding: 80px 100px;
+  flex-direction: row-reverse;
+  gap: 80px;
+}
+
+.SectionSixth img {
+  width: 50%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.TextSix h2 {
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.TextSix p {
+  font-family: 'Open Sans';
+  color: #222;
+  font-size: 15px;
+  margin-bottom: 25px;
+  max-width: 420px;
+}
+
+.TextSix button {
+  background-color: #f6c900;
+  color: #000;
+  border: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.SectionSeven {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 80px;
+  padding: 100px 120px;
+  background-color: #fff;
+}
+
+.form {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form label {
+  font-size: 14px;
+}
+
+.form .union {
+  display: flex;
+  gap: 25px;
+}
+
+.form input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form textarea {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form p {
+  font-size: 11px;
+  color: #ffffff;
+  text-align: justify;
+  width: 100%;
+}
+
+.TextSeven {
+  margin-top: 80px;
+}
+
+.TextSeven h2 {
+  font-family: 'Bebas Neue';
+  font-size: 48px;
+  color: #f6c900;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.TextSeven p {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: #222;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  max-width: 400px;
+}
+
+.TextSeven button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.SectionEigth {
+  background-color: #e9bf00;
+  align-items: column;
+  text-align: center;
+  padding: 60px 0;
+
+}
+
+.SectionEigth h4 {
+  font-family: 'Bebas Neue';
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.SectionEigth img {
+  cursor: pointer;
+}
+
+.SectionEigth p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #000;
+  margin: 20px 200px;
+}
+
+.SectionEigth button {
+  font-family: 'Open Sans';
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #000;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Open Sans';
+  padding: 50px 80px;
+  position: relative;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-bottom: 40px;
+}
+
+.links p {
+  color: #f6c900;
+  margin: 6px 0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #555;
+  margin: 40px 0 20px 0;
+}
+
+.social {
+  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.text-help h1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 65px;
-  font-weight: 100;
-  margin: 0 0 20px;
-  line-height: 1.0;
+.social p {
+  color: #f6c900;
+  font-size: 13px;
+  font-weight: 600;
 }
 
-.text-help p {
-  font-size: 20px;
-  color: #333;
-  line-height: 1.0;
-  
+.social .icon img {
+  width: auto;
+  height: 20px;
+  cursor: pointer;
 }
 
-.img-help {
-  text-align: right;
-  flex: 1;
+@media (max-width: 1279px) {
+  .sectionOne img {
+    width: 50%;
+    height: auto;
+  }
+
+  .Text h1 {
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    line-height: 1.0;
+  }
+
+  .Text p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+  }
+
+  .Text button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+  .Position {
+    padding: 50px 60px;
+    gap: 110px;
+  }
+
+  .TextTwo h2 {
+    font-size: 30px;
+  }
+
+  .TextTwo p {
+    font-size: 15px;
+  }
+
+  .resalte {
+    font-size: 15px;
+  }
+
+  .estadisticas {
+    width: 300px;
+  }
+
+  .estadisticas img {
+    margin-top: 40px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .TextThree h2 {
+    font-size: 70px;
+  }
+
+  .TextThree p {
+    font-size: 13px;
+  }
+
+  .TextThree button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .imageSecThree {
+    margin-left: 340px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .SectionThree .TextFour h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .SectionThree button {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+
+  .estadis img {
+    width: 150px;
+    margin-left: 110px;
+  }
+
+  .TextFour p {
+    font-size: 13px;
+  }
+
+  .SectionFourth p {
+    font-size: 12px;
+    margin: 20px 100px;
+  }
+
+  .SectionFourth img {
+    width: 800px;
+  }
+
+  .SectionFourth button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .SectionFifth p {
+    font-size: 13px;
+  }
+
+  .SectionFifth button {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
+
+  .SectionSixth .TextSix h2 {
+    font-size: 60px;
+  }
+
+  .SectionSixth p {
+    font-size: 12px;
+  }
+
+  .SectionSixth button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .SectionSixth img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .TextSeven h2 {
+    font-size: 47px;
+  }
+
+  .TextSeven p {
+    font-size: 13px;
+  }
+
+  .TextSeven button {
+    padding: 10px 25px;
+    font-size: 13px;
+  }
+
+  .form {
+    width: 400px;
+  }
+
+  .form input {
+    font-size: 13px;
+  }
+
+  .form textarea {
+    font-size: 13px;
+  }
+
+  .form p {
+    font-size: 10px;
+  }
+
+  .form label {
+    font-size: 13px;
+  }
+
+  .union {
+    gap: 15px;
+  }
+
+  .SectionEigth p {
+    font-size: 14px;
+    margin: 20px 100px;
+  }
+
+  .SectionEigth img {
+    width: 800px;
+  }
+
+  .SectionEigth button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 920px) {
+
+  .sectionOne img {
+    width: 50%;
+    height: 60%;
+  }
+
+  .Text h1 {
+    font-size: 50px;
+  }
+
+  .Text p {
+    font-size: 12px;
+    padding-right: 0px;
+  }
+
+  .Text button {
+    margin-top: 20px;
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+
+  .Position {
+    padding: 30px 20px;
+    margin: -40px 55px;
+    gap: 60px;
+  }
+
+  .TextThree h2 {
+    font-size: 60px;
+  }
+
+  .TextThree p {
+    font-size: 12px;
+  }
+
+  .TextThree button {
+    margin-top: 20px;
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+
+  .imageSecThree {
+    margin-left: 300px;
+    width: 400px;
+    height: 250px;
+  }
+
+  .TextFour h2 {
+    font-size: 48px;
+  }
+
+  .TextFour p {
+    font-size: 9px;
+  }
+
+  .SectionThree button {
+    font-size: 8px;
+    padding: 10px 12px;
+  }
+
+  .estadis img {
+    width: 110px;
+    margin-left: 90px;
+  }
+
+  .SectionFourth p {
+    font-size: 12px;
+    margin: 20px 100px;
+  }
+
+  .SectionFourth img {
+    width: 700px;
+  }
+
+  .SectionFourth button {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .SectionFifth h4 {
+    font-size: 36px;
+  }
+
+  .SectionFifth p {
+    font-size: 12px;
+  }
+
+  .SectionFifth button {
+    font-size: 11px;
+    padding: 10px 12px;
+  }
+
+  .SectionSixth {
+    padding: 60px 50px;
+  }
+
+  .TextSix h2 {
+    font-size: 48px;
+  }
+
+  .SectionSixth p {
+    font-size: 11px;
+  }
+
+  .SectionSixth button {
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+
+  .SectionSixth img {
+    width: 320px;
+    height: 320px;
+
+  }
+
+  .SectionSeven {
+    padding: 60px 80px;
+    gap: 60px;
+  }
+
+  .TextSeven h2 {
+    font-size: 40px;
+  }
+
+  .TextSeven button {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+
+  .form p {
+    font-size: 10px;
+  }
+
+  .SectionEigth p {
+    font-size: 12px;
+    margin: 20px 100px;
+  }
+
+  .SectionEigth img {
+    width: 700px;
+  }
+
+  .SectionEigth button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  nav a {
+    font-size: 12px;
+    margin: 0 10px;
+  }
+
+  .sectionOne {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .sectionOne img {
+    width: 80%;
+  }
+
+  .Text {
+    width: 90%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .Text h1 {
+    font-size: 40px;
+  }
+
+  .Text p {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  .Text button {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+
+  .Position {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 30px;
+    margin: 130px 110px;
+    transform: none;
+  }
+
+  .estadisticas {
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .estadisticas img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .SectionTwo {
+    padding: 60px 30px;
+    text-align: center;
+    margin-top: 350px;
+  }
+
+  .TextThree h2 {
+    font-size: 50px;
+  }
+
+  .imageSecThree {
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .SectionThree {
+    flex-direction: column;
+    width: 90%;
+    margin: 60px auto;
+  }
+
+  .SectionThree img {
+    width: 100%;
+  }
+
+  .TextFour {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .TextFour h2 {
+    font-size: 45px;
+  }
+
+  .TextFour p {
+    font-size: 12px;
+  }
+
+  .estadis img {
+    margin-left: 5px;
+  }
+
+  .SectionFourth p {
+    margin: 20px 30px;
+    font-size: 11px;
+  }
+
+  .SectionFourth img {
+    width: 400px;
+  }
+
+  .SectionFifth {
+    flex-direction: column;
+    padding: 60px 30px;
+    text-align: center;
+  }
+
+  .SectionFifth img {
+    width: 80%;
+    margin-left: 110px;
+    margin-bottom: 20px;
+  }
+
+  .TextFive p {
+    font-size: 13px;
+  }
+
+  .SectionSixth {
+    flex-direction: column;
+    padding: 60px 30px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .SectionSixth img {
+    width: 80%;
+  }
+
+  .TextSix h2 {
+    font-size: 50px;
+  }
+
+  .TextSix p {
+    font-size: 13px;
+  }
+
+  .SectionSeven {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 30px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .TextSeven {
+    text-align: center;
+  }
+
+  .TextSeven h2 {
+    font-size: 36px;
+  }
+
+  .SectionEigth p {
+    font-size: 13px;
+  }
+
+  .SectionEigth img {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  header img {
+    height: 35px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .sectionOne {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+
+  }
+
+  .sectionOne img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .Text {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .Text h1 {
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  .Text p {
+    font-size: 11px;
+    padding: 0;
+  }
+
+  .Text button {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+
+  .Position {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 30px;
+    margin: 20px 45px;
+    transform: none;
+  }
+
+  .estadisticas {
+    align-items: center;
+    width: 70%;
+    gap: 30px;
+  }
+
+  .estadisticas img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .SectionTwo {
+    padding: 60px 30px;
+    text-align: center;
+    margin-top: 400px;
+  }
+
+  .TextThree h2 {
+    font-size: 36px;
+  }
+
+  .TextThree p {
+    font-size: 11px;
+  }
+
+  .TextThree button {
+    font-size: 11px;
+    padding: 8px 15px;
+  }
+
+  .imageSecThree {
+    margin-top: 30px;
+    margin-left: 12px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .SectionThree {
+    flex-direction: column;
+    width: 95%;
+    margin: 40px auto;
+  }
+
+  .SectionThree img {
+    width: 100%;
+  }
+
+  .TextFour {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .TextFour h2 {
+    font-size: 36px;
+  }
+
+  .TextFour p {
+    font-size: 11px;
+  }
+
+  .SectionThree button {
+    font-size: 10px;
+    padding: 8px 12px;
+  }
+
+  .SectionFourth {
+    padding: 40px 10px;
+  }
+
+  .SectionFourth h2 {
+    font-size: 28px;
+  }
+
+  .SectionFourth p {
+    font-size: 11px;
+    margin: 10px 20px;
+  }
+
+  .SectionFourth img {
+    width: 300px;
+  }
+
+  .SectionFourth button {
+    padding: 8px 15px;
+    font-size: 11px;
+  }
+
+  .SectionFifth {
+    flex-direction: column;
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .SectionFifth img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .TextFive h4 {
+    font-size: 30px;
+  }
+
+  .TextFive p {
+    font-size: 11px;
+  }
+
+  .TextFive button {
+    font-size: 11px;
+    padding: 8px 15px;
+  }
+
+  .SectionSixth {
+    flex-direction: column;
+    padding: 40px 15px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .SectionSixth img {
+    width: 90%;
+    height: auto;
+  }
+
+  .TextSix h2 {
+    font-size: 36px;
+  }
+
+  .TextSix p {
+    font-size: 11px;
+  }
+
+  .TextSix button {
+    font-size: 11px;
+    padding: 8px 15px;
+  }
+
+  .SectionSeven {
+    flex-direction: column-reverse;
+    padding: 40px 15px;
+    gap: 30px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .form label {
+    font-size: 12px;
+  }
+
+  .form input {
+    font-size: 12px;
+  }
+
+  .form textarea {
+    font-size: 12px;
+  }
+
+  .TextSeven {
+    text-align: center;
+  }
+
+  .TextSeven h2 {
+    font-size: 30px;
+  }
+
+  .TextSeven p {
+    font-size: 11px;
+  }
+
+  .TextSeven button {
+    font-size: 11px;
+    padding: 8px 15px;
+  }
+
+  .SectionEigth {
+    padding: 40px 15px;
+  }
+
+  .SectionEigth h4 {
+    font-size: 30px;
+  }
+
+  .SectionEigth p {
+    font-size: 11px;
+    margin: 15px 20px;
+  }
+
+  .SectionEigth img {
+    width: 90%;
+  }
+
+  .SectionEigth button {
+    font-size: 11px;
+    padding: 8px 15px;
+  }
+
+  footer {
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .links p {
+    font-size: 12px;
+  }
+
+  .social {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social p {
+    font-size: 11px;
+  }
+
+  .social .icon img {
+    width: 18px;
+    height: 18px;
+  }
 }
